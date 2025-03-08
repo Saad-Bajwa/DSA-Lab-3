@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 inline-flex items-center rounded-lg justify-center font-medium tracking-tight
+  }
+
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+
+  .btn-text {
+    @apply bg-transparent text-black;
+  }
+
+  .logo-ticker-img {
+    @apply w-auto h-8;
+  }
+
+  .title {
+    @apply tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6;
+  }
+
+  .tag {
+    @apply text-sm border border-[#222]/10 px-3 py-1 inline-flex rounded-lg tracking-tight;
+  }
+}
